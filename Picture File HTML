@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expanding Cards</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <h1>This is the First Page</h1>
+    <h3> Amber Lu</h3>
+    <div class = "picture" id ="picture1">
+        <img src = "https://cdn.pixabay.com/photo/2015/02/24/15/41/wolf-647528_1280.jpg"
+        alt = "The Night"
+        height = 500
+        width = 330>
+        <div class = "text">
+            <a href= "https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+               target = "_blank"
+               title = "Click Me">
+                The night
+            </a>
+        </div>
+    </div>
+
+    <div class = "picture" id = "picture2">
+        <img src = "https://media.istockphoto.com/id/825383494/photo/business-man-pushing-large-stone-up-to-hill-business-heavy-tasks-and-problems-concept.jpg?s=612x612&w=0&k=20&c=wtqvbQ6OIHitRVDPTtoT_1HKUAOgyqa7YzzTMXqGRaQ="
+             alt = "The Man with Stone"
+             height = 500
+             width = 330>
+            <div class = "text">
+                <a href= "https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+                   target = "_blank"
+                   title = "Click Me">
+                    The Man with Stone
+                </a>
+            </div>
+    </div>
+
+    <div class = "picture" id = "picture3">
+        <img src = "https://www.rd.com/wp-content/uploads/2020/05/GettyImages-1153012691.jpg"
+             alt = "Two Rabbits"
+             height = 500
+             width = 330>
+            <div class = "text">
+                <a href= "https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+                   target = "_blank"
+                   title = "Click Me">
+                    The night
+                </a>
+            </div>
+    </div>
+
+    <div class = "picture" id = "picture4">
+        <img src = "https://photographylife.com/wp-content/uploads/2017/01/Best-of-2016-Nasim-Mansurov-20.jpg"
+             alt = "The River"
+             height = 500
+             width = 330>
+            <div class = "text">
+                <a href= "https://www.youtube.com/watch?v=HGTJBPNC-Gw"
+                   target = "_blank"
+                   title = "Click Me">
+                    The night
+                </a>
+            </div>
+    </div>
+
+</body>
+</html>
