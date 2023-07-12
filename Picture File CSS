@@ -1,0 +1,28 @@
+h3{
+    color: #A9A9A9;
+}
+
+.picture{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+a:link{
+    decoration: none;
+    position: absolute;
+    color: black;
+    border-style: solid;
+    color: #6495ED;
+    border-height: auto;
+    border-width: auto;
+}
+
+a:hover{
+    font-size: 20px;
+}
+
+a:active{
+    color: tomato;
+}
+
