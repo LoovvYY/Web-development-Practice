@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LongIn</title>
+</head>
+<body>
+    <h1>Welcome to My Web</h1>
+    <p>Please log in and feel free to leave comment</p>
+    <br>
+    <div class = totalInput>
+        <form action = "index.php" method = "POST">
+            <label for = "username" > username: </label>
+            <input type = "text" id = "username" placeholder="please type your username" minlength = "6" required><br>
+
+            <label for = "password" > password: </label>
+            <input type = "password" id = "password" minlength = 10 required><br>
+
+            <label for = "phone" > phone: </label>
+            <input type = "tel" id = "phone" placeholder="123-456-7890" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{3}"><br>
+
+            <label for = "bday">birthdate: </label>
+            <input type = "date" id = "bday"><br>
+
+            <label for = "title"> title: </label>
+            <label for = "mr.">Mr.</label>
+            <input type = "radio" id = "mr." value = "Mr." name = "title">
+            <label for = "ms.">Ms.</label>
+            <input type = "radio" id = "ms." value = "Ms." name = "title">
+            <label for = "PhD.">PhD.</label>
+            <input type = "radio" id = "PhD." value = "PhD." name = "title"><br>
+
+            <label for = "comment">comment:</label>
+            <textarea id = "comment"></textarea> <br>
+
+            <input type = "reset"><br>
+            <input type = "submit">
+        </form>
+    </div>
+
+
+</body>
+</html>
