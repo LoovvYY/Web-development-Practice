@@ -1,0 +1,12 @@
+let firstName = "Amber";
+let num = 19;
+let student = true;
+
+let student = 21;
+student = student *2;
+student = student % 3;
+
+console.log("hello" , firstName);
+console.log("Are u a student:" , student);
+
+document.getElementById("p1").innerHTML = "Hello " + firstName;
