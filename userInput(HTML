@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <label id = "myLabel"> Enter Your Name: </label><br>
+    <input type = "text" id = "myText"><br>
+    <button type = "button" id = "myButton">submit</button>
+        <script src = "userInput.js"></script>
+
+</body>
+</html>
