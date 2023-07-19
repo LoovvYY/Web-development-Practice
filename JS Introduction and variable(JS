@@ -1,0 +1,16 @@
+let x = 0;
+
+document.getElementById("decreaseButton").onclick = function(){
+    x = x - 1;
+    document.getElementById("count").innerHTML = x;
+};
+
+document.getElementById("increaseButton").onclick = function(){
+    x = x + 1;
+    document.getElementById("count").innerHTML = x;
+};
+
+document.getElementById("resetButton").onclick = function(){
+    x = 0;
+    document.getElementById("count").innerHTML = x;
+};
