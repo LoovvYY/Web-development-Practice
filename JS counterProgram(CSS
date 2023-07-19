@@ -1,0 +1,10 @@
+#count{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+#button{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
