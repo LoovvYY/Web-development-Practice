@@ -1,0 +1,18 @@
+let grade = "A";
+
+switch(grade){
+    case "A" :
+        console.log("You did great");
+        break;
+
+    case "B" :
+        console.log("You did good");
+        break;
+
+    case grade >=70:
+        console.log("You got C");
+        break;
+
+    default:
+        console.log(grade, "is not a letter grade");
+}
