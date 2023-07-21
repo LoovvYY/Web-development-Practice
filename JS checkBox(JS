@@ -1,0 +1,18 @@
+document.getElementById("myOption").onclick = function(){
+    const visaButton = document.getElementById("visaButton");
+    const mastercardButton = document.getElementById("mastercardButton");
+    const paypalButton = document.getElementById("paypalButton");
+
+    if(visaButton.checked = true){
+        console.log("You choose visa payment!");
+    }
+    else if(mastercardButton.checked= true){
+        console.log("You choose mastercard payment!");
+    }
+    else if(paypalButton.checked= true){
+        console.log("You choose paypal payment!");
+    }
+    else{
+        console.log("You must select a payment method!");
+    }
+}
