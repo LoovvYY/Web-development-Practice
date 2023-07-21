@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Check Boxes</title>
+</head>
+<body>
+    <label for = "visaButton">visa</label>
+    <input type = "radio" name = "card" id = "visaButton">
+    <label for = "mastercardButton">mastercard</label>
+    <input type = "radio" name = "card" id = "mastercardButton">
+    <label for = "paypalButton">paypal</label>
+    <input type = "radio" name = "card" id = "paypalButton"><br>
+    <button id="myOption">submit</button>
+    <script src = "checkBoxes.js"></script>
+
+
+</body>
+</html>
