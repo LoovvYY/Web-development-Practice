@@ -1,0 +1,19 @@
+let answer = Math.floor(Math.random()*10+1);
+
+let times = 0;
+
+document.getElementById("submitButton").onclick = function(){
+    times++;
+    let value = document.getElementById("myGuess").value;
+    if(value==answer){
+        alert(`${answer} is the right answer, you answer with ${times} times!`);
+    }
+    else if(value<answer){
+        alert(`Too small`);
+    }
+    else{
+        alert(`Too big`);
+    }
+
+
+}
