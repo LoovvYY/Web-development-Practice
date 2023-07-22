@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number Guess Game</title>
+</head>
+<body>
+    <h1>This is a number guessing game</h1>
+    <p>Choose a number between 1 - 10!</p>
+    <label>Enter a guess: </label>
+    <input id = "myGuess"><br>
+    <input type = "submit" id = "submitButton">
+    <script src = "numberGuessGame.js"></script>
+
+
+</body>
+</html>
