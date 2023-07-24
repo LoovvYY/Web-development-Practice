@@ -1,0 +1,28 @@
+let temp = 0;
+
+document.getElementById("submit").onclick = function(){
+    if(document.getElementById("cButton").checked){
+        temp = document.getElementById("temp").value;
+        temp = Number(temp);
+        temp = toCelsius(temp);
+        document.getElementById("conversionTemp").innerHTML = temp + "°C";
+    }
+    else if(document.getElementById("fButton").checked){
+        temp = document.getElementById("temp").value;
+        temp = Number(temp);
+        temp = toFahrenheit(temp);
+        document.getElementById("conversionTemp").innerHTML = temp + "°F";
+    }
+    else{
+        alert(`Please select one temperature format!`);
+    }
+}
+
+
+function toCelsius(temp){
+ return (temp - 32)*(5/9);
+}
+function toFahrenheit(temp){
+    return temp * 9/5 +32;
+}
+
