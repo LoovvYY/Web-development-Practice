@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <label>Enter a temperature: </label>
+    <input type = "text" id = "temp"><br>
+    <label>convert to: </label><br>
+    <label>Celsius </label>
+    <input type = "radio" id = "cButton" name = "tempButton"><br>
+    <label>Fahrenheit </label>
+    <input type = "radio" id = "fButton" name = "tempButton"><br>
+    <input type = "submit" id = "submit"><br>
+    <label id = "conversionTemp"> </label>
+
+
+
+    <script src = "temperature conversion.js"></script>
+</body>
+</html>
